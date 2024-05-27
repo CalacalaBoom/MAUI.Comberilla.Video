@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\CSharp\\Comberilla\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CA9B74B-E144-484E-A167-1471C0EE4DA8}|Backend\\Backend\\Backend.csproj|e:\\csharp\\comberilla\\src\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA9B74B-E144-484E-A167-1471C0EE4DA8}|Backend\\Backend\\Backend.csproj|solutionrelative:backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|e:\\csharp\\comberilla\\src\\mauicomberilla\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|solutionrelative:mauicomberilla\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|e:\\csharp\\comberilla\\src\\mauicomberilla\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|solutionrelative:mauicomberilla\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|e:\\csharp\\comberilla\\src\\mauicomberilla\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|solutionrelative:mauicomberilla\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|e:\\csharp\\comberilla\\src\\mauicomberilla\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|solutionrelative:mauicomberilla\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|e:\\csharp\\comberilla\\src\\mauicomberilla\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7EA839-9098-4A13-868F-1D80F85F63D7}|MAUIComberilla\\MAUIComberilla.csproj|solutionrelative:mauicomberilla\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 15,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Backend\\Backend\\Program.cs",
-              "ToolTip": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Backend\\Backend\\Program.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAcwFUAAAAyAAAA",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MAUIComberilla\\App.xaml.cs",
+              "ToolTip": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\App.xaml.cs",
+              "RelativeToolTip": "MAUIComberilla\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T07:12:13.872Z",
+              "WhenOpened": "2024-05-27T09:25:14.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MAUIComberilla\\MainPage.xaml.cs",
+              "ToolTip": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MainPage.xaml.cs",
+              "RelativeToolTip": "MAUIComberilla\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:52:25.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MAUIComberilla\\MainPage.xaml",
+              "ToolTip": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MainPage.xaml",
+              "RelativeToolTip": "MAUIComberilla\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T08:50:15.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MAUIComberilla\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "MAUIComberilla\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:26:04.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MAUIComberilla\\MauiProgram.cs",
+              "ToolTip": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MauiProgram.cs",
+              "RelativeToolTip": "MAUIComberilla\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:22:33.61Z",
               "EditorCaption": ""
             }
           ]

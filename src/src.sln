@@ -5,11 +5,15 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi", "webapi", "{DAA9B263-1233-43B4-86F1-C9FF21FB0D2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend\Backend.csproj", "{1CA9B74B-E144-484E-A167-1471C0EE4DA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend\Backend.csproj", "{1CA9B74B-E144-484E-A167-1471C0EE4DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Comon", "Backend\Backend.Comon\Backend.Comon.csproj", "{50EDF580-8D58-4CC4-9825-5B0ED24DEB54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Comon", "Backend\Backend.Comon\Backend.Comon.csproj", "{50EDF580-8D58-4CC4-9825-5B0ED24DEB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Core", "Backend\Backend.Core\Backend.Core.csproj", "{74E9A8BC-6162-44E0-AE91-A19402765760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Core", "Backend\Backend.Core\Backend.Core.csproj", "{74E9A8BC-6162-44E0-AE91-A19402765760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{1CA852FC-D28F-4CFF-BA93-1CEE414390C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIComberilla", "MAUIComberilla\MAUIComberilla.csproj", "{4D7EA839-9098-4A13-868F-1D80F85F63D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,12 @@ Global
 		{74E9A8BC-6162-44E0-AE91-A19402765760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E9A8BC-6162-44E0-AE91-A19402765760}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E9A8BC-6162-44E0-AE91-A19402765760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7EA839-9098-4A13-868F-1D80F85F63D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7EA839-9098-4A13-868F-1D80F85F63D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7EA839-9098-4A13-868F-1D80F85F63D7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4D7EA839-9098-4A13-868F-1D80F85F63D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7EA839-9098-4A13-868F-1D80F85F63D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7EA839-9098-4A13-868F-1D80F85F63D7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +47,7 @@ Global
 		{1CA9B74B-E144-484E-A167-1471C0EE4DA8} = {DAA9B263-1233-43B4-86F1-C9FF21FB0D2A}
 		{50EDF580-8D58-4CC4-9825-5B0ED24DEB54} = {DAA9B263-1233-43B4-86F1-C9FF21FB0D2A}
 		{74E9A8BC-6162-44E0-AE91-A19402765760} = {DAA9B263-1233-43B4-86F1-C9FF21FB0D2A}
+		{4D7EA839-9098-4A13-868F-1D80F85F63D7} = {1CA852FC-D28F-4CFF-BA93-1CEE414390C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33F3D4E1-C13D-46C5-906C-CDDF5B039B5C}
