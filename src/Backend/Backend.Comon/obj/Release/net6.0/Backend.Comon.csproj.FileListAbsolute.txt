@@ -1,0 +1,12 @@
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\bin\Release\net6.0\Backend.Comon.deps.json
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\bin\Release\net6.0\Backend.Comon.dll
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\bin\Release\net6.0\Backend.Comon.pdb
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\Backend.Comon.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\Backend.Comon.AssemblyInfoInputs.cache
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\Backend.Comon.AssemblyInfo.cs
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\Backend.Comon.csproj.CoreCompileInputs.cache
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\Backend.Comon.sourcelink.json
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\Backend.Comon.dll
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\refint\Backend.Comon.dll
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\Backend.Comon.pdb
+E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Release\net6.0\ref\Backend.Comon.dll

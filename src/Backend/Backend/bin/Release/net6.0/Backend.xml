@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backend</name>
+    </assembly>
+    <members>
+        <member name="T:Backend.Controllers.TypeController">
+            <summary>
+            视频类型控制器
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.TypeController.GetTypeList(System.String)">
+            <summary>
+            获取类型列表
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Backend.Controllers.VodController">
+            <summary>
+            视频控制器
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.VodController.GetRecommendVideo(System.String)">
+            <summary>
+            获取推荐视频
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.VodController.GetLatestVideo(System.String,System.Int32,System.Int32)">
+            <summary>
+            获取最新视频
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.VodController.SearchVideo(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            视频搜索
+            </summary>
+            <param name="type"></param>
+            <param name="query">片名，演员，导演</param>
+            <returns></returns>
+        </member>
+        <member name="M:Backend.Controllers.VodController.GetTypeVideo(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取类型下的视频
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Backend.Program">
+            <summary>
+            作者:CalacalaBoom
+            时间:2024/5/27 10:10:24
+            机器名:DESKTOP-0SROHUF
+            项目名:Backend
+            </summary>
+        </member>
+    </members>
+</doc>

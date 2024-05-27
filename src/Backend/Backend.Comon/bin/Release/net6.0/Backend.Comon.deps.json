@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Backend.Comon/1.0.0": {
+        "runtime": {
+          "Backend.Comon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Backend.Comon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
