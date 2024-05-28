@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj",
+      "projectUniqueName": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj",
       "projectName": "Backend.Comon",
-      "projectPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj",
+      "projectPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj",
       "packagesPath": "C:\\Users\\HEYii\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Comon\\obj\\",
+      "outputPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Comon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\IDE\\Installer\\NuGetPackages"

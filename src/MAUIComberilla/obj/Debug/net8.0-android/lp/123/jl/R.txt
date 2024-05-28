@@ -1,5 +1,2 @@
-int attr drawerLayoutStyle 0x0
-int attr elevation 0x0
-int dimen def_drawer_elevation 0x0
-int[] styleable DrawerLayout { 0x0 }
-int styleable DrawerLayout_elevation 0
+int id is_pooling_container_tag 0x0
+int id pooling_container_listener_holder_tag 0x0

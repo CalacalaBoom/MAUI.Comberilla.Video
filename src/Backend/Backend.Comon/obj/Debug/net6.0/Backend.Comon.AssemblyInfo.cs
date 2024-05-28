@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backend.Comon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dff566d5ee57a505c09cfd08e20cc25b3a47f1c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd6bd33cd97386f47db0537d698fbd4fb00dc57b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backend.Comon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backend.Comon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

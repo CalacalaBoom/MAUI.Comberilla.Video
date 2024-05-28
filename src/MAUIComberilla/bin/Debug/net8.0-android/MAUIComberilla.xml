@@ -4,6 +4,973 @@
         <name>MAUIComberilla</name>
     </assembly>
     <members>
+        <member name="T:MAUIComberilla.Datas.MacAnnex">
+             <summary>
+             
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacAnnex.AnnexId">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacAnnex.AnnexTime">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacAnnex.AnnexFile">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacAnnex.AnnexSize">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacAnnex.AnnexType">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="T:MAUIComberilla.Datas.MacCollect">
+             <summary>
+             
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectId">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectName">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectUrl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectType">
+             <summary>
+              
+             默认值: 1
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectMid">
+             <summary>
+              
+             默认值: 1
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectAppid">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectAppkey">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectParam">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectFilter">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectFilterFrom">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectFilterYear">
+             <summary>
+             采集时，过滤年份 
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectOpt">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacCollect.CollectSyncPicOpt">
+             <summary>
+             同步图片选项，0-跟随全局，1-开启，2-关闭 
+             默认值: 0
+            </summary>
+        </member>
+        <member name="T:MAUIComberilla.Datas.MacTopic">
+             <summary>
+             
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicId">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicName">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicEn">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicSub">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicStatus">
+             <summary>
+              
+             默认值: 1
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicSort">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicLetter">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicColor">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicTpl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicType">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicPic">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicPicThumb">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicPicSlide">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicKey">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicDes">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicTitle">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicBlurb">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicRemarks">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicLevel">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicUp">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicDown">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicScore">
+             <summary>
+              
+             默认值: 0.0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicScoreAll">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicScoreNum">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicHits">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicHitsDay">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicHitsWeek">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicHitsMonth">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicTime">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicTimeAdd">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicTimeHits">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicTimeMake">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicTag">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicRelVod">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicRelArt">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicContent">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacTopic.TopicExtend">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="T:MAUIComberilla.Datas.MacType">
+             <summary>
+             
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeId">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeName">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeEn">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeSort">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeMid">
+             <summary>
+              
+             默认值: 1
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypePid">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeStatus">
+             <summary>
+              
+             默认值: 1
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeTpl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeTplList">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeTplDetail">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeTplPlay">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeTplDown">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeKey">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeDes">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeTitle">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeUnion">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeExtend">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeLogo">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypePic">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacType.TypeJumpurl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="T:MAUIComberilla.Datas.MacVod">
+             <summary>
+             
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodId">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.TypeId">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.TypeId1">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.GroupId">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodName">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodSub">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodEn">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodStatus">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodLetter">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodColor">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTag">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodClass">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPic">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPicThumb">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPicSlide">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPicScreenshot">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodActor">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDirector">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodWriter">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodBehind">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodBlurb">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodRemarks">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPubdate">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTotal">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodSerial">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTv">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodWeekday">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodArea">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodLang">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodYear">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodVersion">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodState">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodAuthor">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodJumpurl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTpl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTplPlay">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTplDown">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodIsend">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodLock">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodLevel">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodCopyright">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPoints">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPointsPlay">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPointsDown">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodHits">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodHitsDay">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodHitsWeek">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodHitsMonth">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDuration">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodUp">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDown">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodScore">
+             <summary>
+              
+             默认值: 0.0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodScoreAll">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodScoreNum">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTime">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTimeAdd">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTimeHits">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTimeMake">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodTrysee">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDoubanId">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDoubanScore">
+             <summary>
+              
+             默认值: 0.0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodReurl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodRelVod">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodRelArt">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPwd">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPwdUrl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPwdPlay">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPwdPlayUrl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPwdDown">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPwdDownUrl">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodContent">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPlayFrom">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPlayServer">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPlayNote">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPlayUrl">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDownFrom">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDownServer">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDownNote">
+             <summary>
+              
+             默认值: 
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodDownUrl">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPlot">
+             <summary>
+              
+             默认值: 0
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPlotName">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.MacVod.VodPlotDetail">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="M:MAUIComberilla.Services.RestSharpService.RestResponseWithPolicyAsync(RestSharp.RestRequest)">
+            <summary>
+            使用Policy执行http请求
+            </summary>
+            <param name="restRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MAUIComberilla.ViewModels.HomeViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:MAUIComberilla.ViewModels.HomeViewModel.recommendClickCommand">
+            <summary>The backing field for <see cref="P:MAUIComberilla.ViewModels.HomeViewModel.RecommendClickCommand"/>.</summary>
+        </member>
+        <member name="P:MAUIComberilla.ViewModels.HomeViewModel.RecommendClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MAUIComberilla.ViewModels.HomeViewModel.OnRecommendClick(System.Object)"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color

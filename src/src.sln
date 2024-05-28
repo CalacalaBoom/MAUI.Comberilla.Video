@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Core", "Backend\Bac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{1CA852FC-D28F-4CFF-BA93-1CEE414390C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIComberilla", "MAUIComberilla\MAUIComberilla.csproj", "{4D7EA839-9098-4A13-868F-1D80F85F63D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUIComberilla", "MAUIComberilla\MAUIComberilla.csproj", "{4D7EA839-9098-4A13-868F-1D80F85F63D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3663,11 +3663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\HEYii\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\IDE\\Installer\\NuGetPackages"
@@ -3689,11 +3689,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj": {
-              "projectPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj"
+            "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj": {
+              "projectPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Comon\\Backend.Comon.csproj"
             },
-            "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj": {
-              "projectPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj"
+            "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj": {
+              "projectPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj"
             }
           }
         }

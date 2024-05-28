@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIComberilla.Pages.HomeView"
+             BackgroundColor="#1A1C1E">
+    <ContentView.Resources>
+        <Style x:Key="IndicatorFrameStyle"
+               TargetType="Border">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="#9DA1A4" />
+                                <Setter Property="StrokeThickness"
+                                        Value="0" />
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="#2D52FF" />
+                                <Setter Property="WidthRequest"
+                                        Value="45" />
+                                <Setter Property="StrokeThickness"
+                                        Value="0" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentView.Resources>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid>
+                <CarouselView x:Name="carouselView"
+                              HeightRequest="500"
+                              IndicatorView="indicatorView">
+                    <CarouselView.ItemTemplate>
+                        <!-- DataTemplate that defines item appearance -->
+                        <DataTemplate>
+                            <Grid>
+                                <Image Source="{Binding PicSource}"
+                                       Aspect="AspectFill" />
+                                <Grid>
+                                    <Grid.Background>
+                                        <LinearGradientBrush StartPoint="0,0"
+                                                             EndPoint="0,1">
+                                            <GradientStop Color="#1A1C1E"
+                                                          Offset="0.0" />
+                                            <GradientStop Color="Transparent"
+                                                          Offset="0.25" />
+                                            <GradientStop Color="Transparent"
+                                                          Offset="0.6" />
+                                            <GradientStop Color="#1A1C1E"
+                                                          Offset="1.0" />
+                                        </LinearGradientBrush>
+                                    </Grid.Background>
+                                </Grid>
+                                <StackLayout VerticalOptions="End"
+                                             Margin="20,0,0,40">
+                                    <Label Text="{Binding Name}"
+                                           TextColor="White"
+                                           FontFamily="PingFangSCRegular"
+                                           FontSize="25" />
+                                    <Label Text="{Binding Type}"
+                                           TextColor="#9DA1A4"
+                                           FontFamily="PingFangSCRegular"
+                                           FontSize="15"
+                                           Margin="0,10,0,0" />
+                                </StackLayout>
+                                <ImageButton BackgroundColor="Transparent"
+                                             Source="play.png"
+                                             WidthRequest="60"
+                                             HeightRequest="60"
+                                             HorizontalOptions="End"
+                                             VerticalOptions="End"
+                                             Margin="0,0,20,40"
+                                             Command="{Binding Source={x:Reference carouselView}, Path=BindingContext.RecommendClickCommand}"
+                                             CommandParameter="{Binding}">
+                                </ImageButton>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                <!-- Custom IndicatorView -->
+                <IndicatorView x:Name="indicatorView"
+                               Margin="20,0,0,0"
+                               IndicatorColor="Transparent"
+                               SelectedIndicatorColor="Transparent"
+                               HorizontalOptions="Start"
+                               VerticalOptions="End">
+                    <IndicatorView.IndicatorTemplate>
+                        <DataTemplate>
+                            <Border Margin="0,0,5,0"
+                                    StrokeShape="RoundRectangle 50"
+                                    HeightRequest="10"
+                                    WidthRequest="10"
+                                    Style="{StaticResource IndicatorFrameStyle}" />
+                        </DataTemplate>
+                    </IndicatorView.IndicatorTemplate>
+                </IndicatorView>
+            </Grid>
+            <Label Text="继续观看"
+                   FontFamily="PingFangSCRegular"
+                   TextColor="White"
+                   Margin="20,60,0,0"
+                   FontSize="25" />
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Margin="20"
+                             HeightRequest="200"
+                             Orientation="Horizontal"
+                             HorizontalOptions="Center">
+                    <BoxView Color="Red"
+                             WidthRequest="300" />
+                    <BoxView Color="Yellow"
+                             WidthRequest="300"
+                             Margin="15,0,0,0" />
+                    <BoxView Color="Blue"
+                             WidthRequest="300"
+                             Margin="15,0,0,0" />
+                    <BoxView Color="Green"
+                             WidthRequest="300"
+                             Margin="15,0,0,0" />
+                    <BoxView Color="Orange"
+                             WidthRequest="300"
+                             Margin="15,0,0,0" />
+                    <BoxView Color="Purple"
+                             WidthRequest="300"
+                             Margin="15,0,0,0" />
+                </StackLayout>
+            </ScrollView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>

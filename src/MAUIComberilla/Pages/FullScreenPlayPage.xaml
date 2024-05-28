@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIComberilla.Pages.FullScreenPlayPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="FullScreenPlayPage">
+    <toolkit:MediaElement Source="https://1080p.huyall.com/play/rb2OJ0Nd/index.m3u8"
+                          ShouldShowPlaybackControls="True" />
+</ContentPage>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj": {}
+    "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj": {}
   },
   "projects": {
-    "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj": {
+    "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj",
+        "projectUniqueName": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj",
         "projectName": "MAUIComberilla",
-        "projectPath": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj",
+        "projectPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\MAUIComberilla\\MAUIComberilla.csproj",
         "packagesPath": "C:\\Users\\HEYii\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharp\\Comberilla\\src\\MAUIComberilla\\obj\\",
+        "outputPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\MAUIComberilla\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[3.0.1, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -91,6 +95,18 @@
               "target": "Package",
               "version": "[8.0.5, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.1.0, )"
             }
           },
           "imports": [
@@ -125,6 +141,10 @@
               "target": "Package",
               "version": "[3.0.1, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -142,6 +162,18 @@
               "target": "Package",
               "version": "[8.0.5, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.1.0, )"
             }
           },
           "imports": [
@@ -176,6 +208,10 @@
               "target": "Package",
               "version": "[3.0.1, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -193,6 +229,18 @@
               "target": "Package",
               "version": "[8.0.5, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.1.0, )"
             }
           },
           "imports": [
@@ -228,6 +276,10 @@
               "target": "Package",
               "version": "[3.0.1, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -239,6 +291,18 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.1.0, )"
             }
           },
           "imports": [

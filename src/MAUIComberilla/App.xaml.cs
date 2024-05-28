@@ -1,4 +1,6 @@
-﻿namespace MAUIComberilla
+﻿using MAUIComberilla.Pages;
+
+namespace MAUIComberilla
 {
     public partial class App : Application
     {

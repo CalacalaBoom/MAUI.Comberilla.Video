@@ -1,25 +1,39 @@
-锘縩amespace MAUIComberilla
+using CommunityToolkit.Maui.Views;
+using MAUIComberilla.Pages;
+
+namespace MAUIComberilla;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
-    {
-        int count = 0;
+	public MainPage()
+	{
+		InitializeComponent();
 
-        public MainPage()
-        {
-            InitializeComponent();
-        }
-
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
-        }
+        Home_Tapped(null, null);
     }
 
+    private void Home_Tapped(object sender, TappedEventArgs e)
+    {
+        //home选中样式
+        homeimg.Source = ImageSource.FromFile("homeselected.png");
+        homelb.TextColor = Color.FromArgb("#2D52FF");
+        //search未选中样式
+        searchimg.Source = ImageSource.FromFile("search.png");
+        searchlb.TextColor = Color.FromArgb("#A9ABAD");
+
+        framework.Children.Clear();
+        framework.Children.Add(new HomeView());
+    }
+    private void Search_Tapped(object sender, TappedEventArgs e)
+    {
+        //search选中样式
+        searchimg.Source = ImageSource.FromFile("searchselected.png");
+        searchlb.TextColor = Color.FromArgb("#2D52FF");
+        //home未选中样式
+        homeimg.Source = ImageSource.FromFile("home.png");
+        homelb.TextColor = Color.FromArgb("#A9ABAD");
+
+        framework.Children.Clear();
+        framework.Children.Add(new SearchView());
+    }
 }

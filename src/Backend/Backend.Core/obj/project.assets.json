@@ -3203,11 +3203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj",
+      "projectUniqueName": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj",
       "projectName": "Backend.Core",
-      "projectPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj",
+      "projectPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Core\\Backend.Core.csproj",
       "packagesPath": "C:\\Users\\HEYii\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharp\\Comberilla\\src\\Backend\\Backend.Core\\obj\\",
+      "outputPath": "C:\\Users\\HEYii\\Desktop\\Comberilla\\src\\Backend\\Backend.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\IDE\\Installer\\NuGetPackages"
