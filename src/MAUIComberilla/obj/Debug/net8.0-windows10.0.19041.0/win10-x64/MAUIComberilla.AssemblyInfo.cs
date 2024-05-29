@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAUIComberilla")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fd6bd33cd97386f47db0537d698fbd4fb00dc57b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d9c3d77357f1f91d62bb0adb8777a4cc89de41dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAUIComberilla")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAUIComberilla")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

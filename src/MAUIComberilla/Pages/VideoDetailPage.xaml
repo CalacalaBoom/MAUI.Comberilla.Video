@@ -23,8 +23,28 @@
         </Grid>
 
         <toolkit:MediaElement x:Name="mediaElement"
-                              ShouldShowPlaybackControls="True" 
+                              ShouldShowPlaybackControls="True"
                               HeightRequest="200"
-                              Aspect="AspectFit"/>
+                              Aspect="AspectFit" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Margin="20,10,20,0">
+                <Label x:Name="Titlelb"
+                       FontSize="Title"
+                       TextColor="White" />
+                <Label x:Name="VodContentlb"
+                       FontSize="Default"
+                       TextColor="White">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="VodContent_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>

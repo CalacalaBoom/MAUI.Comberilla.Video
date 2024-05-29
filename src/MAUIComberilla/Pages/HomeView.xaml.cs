@@ -19,7 +19,7 @@ public partial class HomeView : ContentView
         InitializeComponent();
         _viewModel = new HomeViewModel(this);
         this.BindingContext= _viewModel;
-        Task.Run(async () => await OnDataInitilazing());
+        OnDataInitilazing();
     }
 
     private async Task OnDataInitilazing()

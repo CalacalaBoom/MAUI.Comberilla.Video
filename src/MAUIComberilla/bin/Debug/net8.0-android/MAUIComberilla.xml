@@ -962,6 +962,15 @@
             <param name="restRequest"></param>
             <returns></returns>
         </member>
+        <member name="M:MAUIComberilla.Services.StringHelper.StringTruncat(System.String,System.Int32,System.String)">
+              <summary> 
+              将指定字符串按指定长度进行截取并加上指定的后缀
+              </summary> 
+              <param   name= "oldStr "> 需要截断的字符串 </param> 
+              <param   name= "maxLength "> 字符串的最大长度 </param> 
+              <param   name= "endWith "> 超过长度的后缀 </param> 
+              <returns> 如果超过长度，返回截断后的新字符串加上后缀，否则，返回原字符串 </returns> 
+        </member>
         <member name="T:MAUIComberilla.ViewModels.HomeViewModel">
             <inheritdoc/>
         </member>
