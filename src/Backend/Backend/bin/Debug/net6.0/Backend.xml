@@ -4,6 +4,18 @@
         <name>Backend</name>
     </assembly>
     <members>
+        <member name="T:Backend.Controllers.PlayPreController">
+            <summary>
+            M3u8解析前缀控制器
+            </summary>
+        </member>
+        <member name="M:Backend.Controllers.PlayPreController.GetM3u8Pre(System.String)">
+            <summary>
+            获取M3u8解析前缀
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
         <member name="T:Backend.Controllers.TypeController">
             <summary>
             视频类型控制器

@@ -10,3 +10,15 @@ E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.dl
 E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\refint\Backend.Comon.dll
 E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.pdb
 E:\CSharp\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\ref\Backend.Comon.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\bin\Debug\net6.0\Backend.Comon.deps.json
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\bin\Debug\net6.0\Backend.Comon.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\bin\Debug\net6.0\Backend.Comon.pdb
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.AssemblyInfoInputs.cache
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.AssemblyInfo.cs
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.csproj.CoreCompileInputs.cache
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.sourcelink.json
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\refint\Backend.Comon.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\Backend.Comon.pdb
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Comon\obj\Debug\net6.0\ref\Backend.Comon.dll

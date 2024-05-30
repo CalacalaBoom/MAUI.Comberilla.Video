@@ -1,16 +1,25 @@
 using CommunityToolkit.Mvvm.Messaging;
+using MAUIComberilla.Datas;
 using MAUIComberilla.Messages;
 
 namespace MAUIComberilla.Pages;
 
 public partial class FullScreenPlayPage : ContentPage
 {
-	public FullScreenPlayPage()
-	{
-		InitializeComponent();
-	}
+    private string _url;
+    private TimeSpan _position;
+    private Action<TimeSpan> _callback;
+    public FullScreenPlayPage(string url, TimeSpan position,Action<TimeSpan> callback)
+    {
+        InitializeComponent();
+        _url = url;
+        _position = position;
+        _callback = callback;
 
-    protected override void OnAppearing()
+        mediaElement.Source = _url;
+    }
+
+    protected override async void OnAppearing()
     {
         base.OnAppearing();
 
@@ -22,12 +31,6 @@ public partial class FullScreenPlayPage : ContentPage
              UIKit.UIDevice.CurrentDevice.SetValueForKey(Foundation.NSNumber.FromNInt((int)(UIKit.UIInterfaceOrientation.LandscapeLeft)), new Foundation.NSString("orientation"));  
 
 #endif
-        DeviceDisplay.Current.MainDisplayInfoChanged += Current_MainDisplayInfoChanged; ;
-    }
-
-    private void Current_MainDisplayInfoChanged(object? sender, DisplayInfoChangedEventArgs e)
-    {
-        NavigationPage.SetHasNavigationBar(this, false);
     }
 
     protected override void OnDisappearing()
@@ -42,5 +45,20 @@ public partial class FullScreenPlayPage : ContentPage
 #elif IOS
            UIKit.UIDevice.CurrentDevice.SetValueForKey(Foundation.NSNumber.FromNInt((int)(UIKit.UIInterfaceOrientation.Portrait)), new Foundation.NSString("orientation"));  
 #endif
+    }
+
+    private void mediaElement_MediaOpened(object sender, EventArgs e)
+    {
+        mediaElement.SeekTo(_position);
+    }
+
+    private void ContentPage_Unloaded(object sender, EventArgs e)
+    {
+        // Stop and cleanup MediaElement when we navigate away
+        mediaElement.Handler?.DisconnectHandler();
+        if (_callback!=null)
+        {
+            _callback(mediaElement.Position);
+        }
     }
 }

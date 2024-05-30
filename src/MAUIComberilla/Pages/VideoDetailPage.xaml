@@ -5,7 +5,8 @@
              x:Class="MAUIComberilla.Pages.VideoDetailPage"
              Title="VideoDetailPage"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#1A1C1E">
+             BackgroundColor="#1A1C1E"
+             Unloaded="ContentPage_Unloaded">
     <VerticalStackLayout>
         <Grid BackgroundColor="#272A30"
               HeightRequest="80">
@@ -13,7 +14,8 @@
                          WidthRequest="25"
                          VerticalOptions="Center"
                          Margin="10,20,0,0"
-                         HorizontalOptions="Start" />
+                         HorizontalOptions="Start"
+                         Clicked="Pop_Clicked" />
             <Label Text="视频详情"
                    TextColor="White"
                    VerticalOptions="Center"
@@ -25,17 +27,32 @@
         <toolkit:MediaElement x:Name="mediaElement"
                               ShouldShowPlaybackControls="True"
                               HeightRequest="200"
-                              Aspect="AspectFit" />
+                              Aspect="AspectFit" 
+                              ShouldAutoPlay="True"/>
         <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition Width="auto" />
-            </Grid.ColumnDefinitions>
-
             <StackLayout Margin="20,10,20,0">
-                <Label x:Name="Titlelb"
-                       FontSize="Title"
-                       TextColor="White" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="Titlelb"
+                           FontSize="Title"
+                           TextColor="White"
+                           Grid.Column="0" />
+                    <StackLayout Orientation="Horizontal"
+                                 Grid.Column="1">
+                        <ImageButton Source="webborwser.png"
+                                     WidthRequest="20"
+                                     HeightRequest="20"
+                                     Clicked="Webborwser_ClickedAsync" />
+                        <ImageButton Source="fullscreen.png"
+                                     WidthRequest="20"
+                                     HeightRequest="20"
+                                     Margin="20,0,0,0"
+                                     Clicked="Fullscreen_Clicked" />
+                    </StackLayout>
+                </Grid>
                 <Label x:Name="VodContentlb"
                        FontSize="Default"
                        TextColor="White">
@@ -44,7 +61,6 @@
                     </Label.GestureRecognizers>
                 </Label>
             </StackLayout>
-
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

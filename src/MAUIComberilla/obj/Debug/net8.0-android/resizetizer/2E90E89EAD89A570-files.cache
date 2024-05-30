@@ -1,9 +1,11 @@
-﻿obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
+﻿obj\Debug\net8.0-android\resizetizer\r\drawable\fullscreen.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\homeselected.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\play.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\pop.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\search.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\searchselected.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\webborwser.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

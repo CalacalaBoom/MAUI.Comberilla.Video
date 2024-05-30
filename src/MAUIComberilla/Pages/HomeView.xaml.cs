@@ -1,11 +1,8 @@
-using Android.Telephony.Data;
-using AndroidX.Lifecycle;
 using CommunityToolkit.Maui.Alerts;
 using MAUIComberilla.Datas;
 using MAUIComberilla.Services;
 using MAUIComberilla.ViewModels;
 using Microsoft.Maui;
-using static Java.Util.Jar.Attributes;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace MAUIComberilla.Pages;

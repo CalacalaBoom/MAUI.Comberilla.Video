@@ -11,3 +11,16 @@ E:\CSharp\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.dll
 E:\CSharp\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\refint\Backend.Core.dll
 E:\CSharp\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.pdb
 E:\CSharp\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\ref\Backend.Core.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\bin\Debug\net6.0\Backend.Core.deps.json
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\bin\Debug\net6.0\Backend.Core.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\bin\Debug\net6.0\Backend.Core.pdb
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.csproj.AssemblyReference.cache
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.AssemblyInfoInputs.cache
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.AssemblyInfo.cs
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.csproj.CoreCompileInputs.cache
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.sourcelink.json
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\refint\Backend.Core.dll
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\Backend.Core.pdb
+C:\Users\HEYii\Desktop\Comberilla\src\Backend\Backend.Core\obj\Debug\net6.0\ref\Backend.Core.dll

@@ -955,6 +955,21 @@
               
             </summary>
         </member>
+        <member name="T:MAUIComberilla.Datas.Playpre">
+             <summary>
+             
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.Playpre.Playfrom">
+             <summary>
+              
+            </summary>
+        </member>
+        <member name="P:MAUIComberilla.Datas.Playpre.M3u8">
+             <summary>
+              
+            </summary>
+        </member>
         <member name="M:MAUIComberilla.Services.RestSharpService.RestResponseWithPolicyAsync(RestSharp.RestRequest)">
             <summary>
             使用Policy执行http请求

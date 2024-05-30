@@ -3,7 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUIComberilla.Pages.FullScreenPlayPage"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             Title="FullScreenPlayPage">
-    <toolkit:MediaElement Source="https://1080p.huyall.com/play/rb2OJ0Nd/index.m3u8"
-                          ShouldShowPlaybackControls="True" />
+             NavigationPage.HasNavigationBar="False"
+             Title="FullScreenPlayPage"
+             Unloaded="ContentPage_Unloaded">
+    <toolkit:MediaElement x:Name="mediaElement"
+                          ShouldShowPlaybackControls="True"
+                          ShouldAutoPlay="True"
+                          Aspect="AspectFit" 
+                          MediaOpened="mediaElement_MediaOpened"/>
 </ContentPage>
