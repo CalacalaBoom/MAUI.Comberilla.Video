@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIComberilla.Pages.Controls.VideoPlayBackControl"
+             WidthRequest="300"
+             Margin="0,0,15,0">
+    <Grid>
+        <Image x:Name="VodPic" Aspect="AspectFill"/>
+        <Label x:Name="Titlelb"
+               VerticalOptions="End"
+               HorizontalOptions="Start"
+               Margin="10,0,0,10" 
+               TextColor="White"
+               FontSize="Body"/>
+        <ProgressBar x:Name="Progress"
+                     ProgressColor="#2D52FF"
+                     VerticalOptions="End"
+                     BackgroundColor="Transparent"
+                     Margin="5,0"
+                     Progress="0.65"/>
+    </Grid>
+</ContentView>

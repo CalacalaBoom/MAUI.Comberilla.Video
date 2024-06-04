@@ -11,6 +11,9 @@
     <MauiXaml Update="MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\Controls\VideoPlayBackControl.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\FullScreenPlayPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -86,6 +86,9 @@
 	  <MauiXaml Update="MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Controls\VideoPlayBackControl.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\FullScreenPlayPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

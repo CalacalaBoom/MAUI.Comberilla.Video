@@ -1,5 +1,6 @@
 using CommunityToolkit.Maui.Alerts;
 using MAUIComberilla.Datas;
+using MAUIComberilla.Pages.Controls;
 using MAUIComberilla.Services;
 using MAUIComberilla.ViewModels;
 using Microsoft.Maui;
@@ -15,7 +16,7 @@ public partial class HomeView : ContentView
     {
         InitializeComponent();
         _viewModel = new HomeViewModel(this);
-        this.BindingContext= _viewModel;
+        this.BindingContext = _viewModel;
         OnDataInitilazing();
     }
 
@@ -45,6 +46,26 @@ public partial class HomeView : ContentView
         catch (Exception ex)
         {
             await MainThread.InvokeOnMainThreadAsync(async () => await Toast.Make(ex.Message).Show());
+        }
+    }
+
+    private async void ContentView_Loaded(object sender, EventArgs e)
+    {
+        await LoadHistory();
+    }
+
+    private async Task LoadHistory()
+    {
+        HistoryList.Clear();
+        using (DatabaseService db = new DatabaseService())
+        {
+            var query = "select * from PlayHistory";
+            var histories = await db.QueryAsync(query);
+            foreach (var history in histories)
+            {
+                var control = new VideoPlayBackControl(history);
+                HistoryList.Add(control);
+            }
         }
     }
 }

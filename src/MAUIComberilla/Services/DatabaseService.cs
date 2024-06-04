@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MAUIComberilla.Services
 {
-    public class DatabaseService
+    public class DatabaseService:IDisposable
     {
         private SQLiteAsyncConnection conn;
 
@@ -35,6 +35,19 @@ namespace MAUIComberilla.Services
             return result;
         }
 
-        public 
+        public async Task<int> DeleteAsync(PlayHistory history)
+        {
+            await Init();
+            int result = await conn.DeleteAsync(history);
+            return result;
+        }
+
+        public void Dispose()
+        {
+            if (conn is null)
+            {
+                conn = null;
+            }
+        }
     }
 }
