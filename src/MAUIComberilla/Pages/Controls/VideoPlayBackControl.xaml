@@ -4,19 +4,50 @@
              x:Class="MAUIComberilla.Pages.Controls.VideoPlayBackControl"
              WidthRequest="300"
              Margin="0,0,15,0">
-    <Grid>
-        <Image x:Name="VodPic" Aspect="AspectFill"/>
-        <Label x:Name="Titlelb"
-               VerticalOptions="End"
-               HorizontalOptions="Start"
-               Margin="10,0,0,10" 
-               TextColor="White"
-               FontSize="Body"/>
-        <ProgressBar x:Name="Progress"
-                     ProgressColor="#2D52FF"
-                     VerticalOptions="End"
-                     BackgroundColor="Transparent"
-                     Margin="5,0"
-                     Progress="0.65"/>
-    </Grid>
+    <Border StrokeThickness="0"
+            Background="#272A30">
+        <Border.StrokeShape>
+            <RoundRectangle CornerRadius="10" />
+        </Border.StrokeShape>
+        <Grid>
+            <Image x:Name="VodPic"
+                   Aspect="AspectFill"
+                   HeightRequest="120"
+                   VerticalOptions="Start" />
+            <ProgressBar x:Name="PlayProgress"
+                         ProgressColor="#2D52FF"
+                         VerticalOptions="Start"
+                         BackgroundColor="Transparent"
+                         Margin="5,105,5,0" />
+            <Label x:Name="Titlelb"
+                   VerticalOptions="End"
+                   HorizontalOptions="Start"
+                   Margin="10,0,10,50"
+                   TextColor="White"
+                   FontSize="Body"
+                   MaxLines="2"
+                   LineBreakMode="TailTruncation" />
+
+            <StackLayout Orientation="Horizontal"
+                         Margin="10,0,0,10">
+                <Label x:Name="Positionlb"
+                       TextColor="#8E9091"
+                       HorizontalOptions="Start"
+                       VerticalOptions="End" />
+                <Label x:Name="Timelb"
+                       TextColor="#8E9091"
+                       HorizontalOptions="Start"
+                       VerticalOptions="End"
+                       Margin="10,0,0,0" />
+            </StackLayout>
+
+            <ImageButton Source="play2.png"
+                         WidthRequest="30"
+                         HeightRequest="30"
+                         HorizontalOptions="End" 
+                         VerticalOptions="End"
+                         Margin="0,0,10,10"
+                         Clicked="ImageButton_Clicked"/>
+        </Grid>
+    </Border>
 </ContentView>

@@ -2292,3 +2292,4 @@ C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\an
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\resizetizer\r\drawable\play2.png

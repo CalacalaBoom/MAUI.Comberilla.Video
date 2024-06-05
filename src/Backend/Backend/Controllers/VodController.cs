@@ -75,7 +75,7 @@ namespace Backend.Controllers
                 RefAsync<int> total = 0;//REF和OUT不支持异步,想要真的异步这是最优解
                 var result = await _repository.AsQueryable()
                     .OrderByDescending(x => x.VodTime)
-                    .Where(w => w.TypeId1 == type_id).ToPageListAsync(pagenumber, pageSize, total);
+                    .Where(w => w.TypeId1 == type_id && (DateTime.Parse(w.VodPubdate)).Date >= DateTime.Now.AddDays(-7).Date).ToPageListAsync(pagenumber, pageSize, total);
                 return new RESTFulDto<List<MacVod>>(result, true, 200, total.ToString());
             }
             catch (Exception ex)
@@ -114,7 +114,7 @@ namespace Backend.Controllers
         /// <param name="type"></param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<RESTFulDto<List<MacVod>>> GetTypeVideo(int typeid,int pagenumber, int pageSize)
+        public async Task<RESTFulDto<List<MacVod>>> GetTypeVideo(int typeid, int pagenumber, int pageSize)
         {
             try
             {

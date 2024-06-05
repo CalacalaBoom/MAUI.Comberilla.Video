@@ -61,6 +61,7 @@
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\homeselected.png" />
 	  <None Remove="Resources\Images\play.png" />
+	  <None Remove="Resources\Images\play2.png" />
 	  <None Remove="Resources\Images\pop.png" />
 	  <None Remove="Resources\Images\search.png" />
 	  <None Remove="Resources\Images\searchselected.png" />
@@ -86,6 +87,12 @@
 	  <MauiXaml Update="MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Controls\Type.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Controls\Video.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Controls\VideoPlayBackControl.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -99,6 +106,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\VideoDetailPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\VideoListPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

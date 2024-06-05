@@ -970,6 +970,33 @@
               
             </summary>
         </member>
+        <member name="M:MAUIComberilla.Pages.HomeView.LoadType">
+            <summary>
+            加载分类
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:MAUIComberilla.Pages.HomeView.LoadNewestVideo">
+            <summary>
+            加载最新视频
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:MAUIComberilla.Pages.HomeView.LoadRecommendVideo">
+            <summary>
+            加载推荐视频
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MAUIComberilla.Pages.VideoListPage.LoadTypeVideoList(System.Int32)">
+            <summary>
+            加载分类视频列表
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
         <member name="M:MAUIComberilla.Services.RestSharpService.RestResponseWithPolicyAsync(RestSharp.RestRequest)">
             <summary>
             使用Policy执行http请求

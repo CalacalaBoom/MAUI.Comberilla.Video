@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converter="clr-namespace:MAUIComberilla.Converters"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MAUIComberilla.Pages.VideoListPage"
+             Title="VideoListPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#1A1C1E"
+             Loaded="ContentView_Loaded">
+    <ContentPage.Resources>
+        <converter:ImageSourceConverter x:Key="ImageSourceConverter" />
+    </ContentPage.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0"
+              BackgroundColor="#272A30"
+              HeightRequest="80">
+            <ImageButton Source="pop.png"
+                         WidthRequest="25"
+                         VerticalOptions="Center"
+                         Margin="10,20,0,0"
+                         HorizontalOptions="Start"
+                         Clicked="Pop_Clicked" />
+            <Label x:Name="PageTitlelb"
+                   TextColor="White"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,0"
+                   FontSize="Subtitle" />
+        </Grid>
+
+        <Grid  Grid.Row="1">
+            <ScrollView>
+                <toolkit:UniformItemsLayout x:Name="VideoList" MaxColumns="2" Margin="0,20,0,0"/>
+                
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>

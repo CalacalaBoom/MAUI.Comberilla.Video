@@ -14,7 +14,11 @@ namespace MAUIComberilla.Datas
         public string name { get; set; }
         public string playing_url { get; set; }
         public TimeSpan position { get; set; }
+        public TimeSpan duration { get; set; }
         public string location { get; set; }
         public string picture { get; set; }
+        public DateTime time { get; set; }
+        public string type { get; set; }
+        public string macvod { get; set; }
     }
 }

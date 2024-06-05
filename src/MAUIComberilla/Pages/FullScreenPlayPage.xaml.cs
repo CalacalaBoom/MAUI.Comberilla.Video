@@ -2,6 +2,7 @@ using CommunityToolkit.Mvvm.Messaging;
 using MAUIComberilla.Datas;
 using MAUIComberilla.Messages;
 using MAUIComberilla.Services;
+using Newtonsoft.Json;
 
 namespace MAUIComberilla.Pages;
 
@@ -29,8 +30,12 @@ public partial class FullScreenPlayPage : ContentPage
                 name = _vod.VodName,
                 playing_url = _vod.VodPlayUrl,
                 position = mediaElement.Position,
+                duration=mediaElement.Duration,
                 location = _location,
-                picture = _vod.VodPic
+                picture = _vod.VodPic,
+                time=DateTime.Now,
+                type=StringHelper.type,
+                macvod = JsonConvert.SerializeObject(_vod)
             };
 
             using (DatabaseService db=new DatabaseService())
