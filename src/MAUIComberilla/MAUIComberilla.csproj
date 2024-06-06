@@ -38,12 +38,35 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	  <DebugSymbols>True</DebugSymbols>
+	  <Debugger>Xamarin</Debugger>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+	  <Optimize>True</Optimize>
+	  <Debugger>Xamarin</Debugger>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'">
+	  <Optimize>True</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-maccatalyst|AnyCPU'">
+	  <Optimize>True</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows10.0.19041.0|AnyCPU'">
+	  <Optimize>True</Optimize>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\comberilla.png" ForegroundScale="0.45" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\comberilla.png" Color="#1A1C1E" BaseSize="128,30" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -57,15 +80,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\fullscreen.png" />
-	  <None Remove="Resources\Images\home.png" />
-	  <None Remove="Resources\Images\homeselected.png" />
-	  <None Remove="Resources\Images\play.png" />
-	  <None Remove="Resources\Images\play2.png" />
-	  <None Remove="Resources\Images\pop.png" />
-	  <None Remove="Resources\Images\search.png" />
-	  <None Remove="Resources\Images\searchselected.png" />
-	  <None Remove="Resources\Images\webborwser.png" />
+		<None Remove="Resources\Images\first.png" />
+		<None Remove="Resources\Images\fullscreen.png" />
+		<None Remove="Resources\Images\home.png" />
+		<None Remove="Resources\Images\homeselected.png" />
+		<None Remove="Resources\Images\last.png" />
+		<None Remove="Resources\Images\next.png" />
+		<None Remove="Resources\Images\play.png" />
+		<None Remove="Resources\Images\play2.png" />
+		<None Remove="Resources\Images\pop.png" />
+		<None Remove="Resources\Images\pre.png" />
+		<None Remove="Resources\Images\search.png" />
+		<None Remove="Resources\Images\searchselected.png" />
+		<None Remove="Resources\Images\webborwser.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -84,33 +111,33 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="MainPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Controls\Type.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Controls\Video.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\Controls\VideoPlayBackControl.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\FullScreenPlayPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\HomeView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\SearchView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\VideoDetailPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\VideoListPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+		<MauiXaml Update="MainPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\Controls\Type.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\Controls\Video.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\Controls\VideoPlayBackControl.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\FullScreenPlayPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\HomeView.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\SearchView.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\VideoDetailPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Pages\VideoListPage.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 	</ItemGroup>
 
 </Project>

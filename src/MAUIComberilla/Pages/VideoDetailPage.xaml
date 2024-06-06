@@ -62,12 +62,28 @@
                         <ImageButton Source="webborwser.png"
                                      WidthRequest="20"
                                      HeightRequest="20"
-                                     Clicked="Webborwser_ClickedAsync" />
+                                     Clicked="Webborwser_ClickedAsync">
+                            <ImageButton.Behaviors>
+                                <toolkit:AnimationBehavior>
+                                    <toolkit:AnimationBehavior.AnimationType>
+                                        <toolkit:FadeAnimation Opacity="0.2" />
+                                    </toolkit:AnimationBehavior.AnimationType>
+                                </toolkit:AnimationBehavior>
+                            </ImageButton.Behaviors>
+                        </ImageButton>
                         <ImageButton Source="fullscreen.png"
                                      WidthRequest="20"
                                      HeightRequest="20"
                                      Margin="20,0,0,0"
-                                     Clicked="Fullscreen_Clicked" />
+                                     Clicked="Fullscreen_Clicked">
+                            <ImageButton.Behaviors>
+                                <toolkit:AnimationBehavior>
+                                    <toolkit:AnimationBehavior.AnimationType>
+                                        <toolkit:FadeAnimation Opacity="0.2" />
+                                    </toolkit:AnimationBehavior.AnimationType>
+                                </toolkit:AnimationBehavior>
+                            </ImageButton.Behaviors>
+                        </ImageButton>
                     </StackLayout>
                 </Grid>
                 <Label x:Name="VodContentlb"

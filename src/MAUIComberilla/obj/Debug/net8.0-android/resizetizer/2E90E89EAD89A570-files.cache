@@ -1,9 +1,13 @@
-﻿obj\Debug\net8.0-android\resizetizer\r\drawable\fullscreen.png
+﻿obj\Debug\net8.0-android\resizetizer\r\drawable\first.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\fullscreen.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\homeselected.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\last.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\next.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\play.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\play2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\pop.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\pre.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\search.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\searchselected.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\webborwser.png

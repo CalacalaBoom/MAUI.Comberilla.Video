@@ -2,6 +2,7 @@
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:MAUIComberilla.Pages.Controls"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="MAUIComberilla.Pages.HomeView"
              BackgroundColor="#1A1C1E"
              Loaded="ContentView_Loaded">
@@ -35,7 +36,29 @@
         </Style>
     </ContentView.Resources>
     <ScrollView>
-        <VerticalStackLayout>
+        <VerticalStackLayout toolkit:StateContainer.CurrentState="{Binding CurrentState}">
+            <toolkit:StateContainer.StateViews>
+                <!--tk:StateContainer.CurrentState的值为Loading时，显示如下内容-->
+                <Border toolkit:StateView.StateKey="Loading"
+                        Background="#000"
+                        WidthRequest="160"
+                        HeightRequest="90"
+                        Opacity="0.5"
+                        Stroke="Transparent"
+                        Margin="0,300,0,0">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <StackLayout VerticalOptions="Center">
+                        <ActivityIndicator IsRunning="True"
+                                           Color="#FFF" />
+                        <Label Text="正在加载..."
+                               TextColor="#FFF"
+                               HorizontalOptions="Center" />
+                    </StackLayout>
+                </Border>
+            </toolkit:StateContainer.StateViews>
+
             <Grid>
                 <CarouselView x:Name="carouselView"
                               HeightRequest="500"
@@ -82,6 +105,13 @@
                                              Margin="0,0,20,40"
                                              Command="{Binding Source={x:Reference carouselView}, Path=BindingContext.RecommendClickCommand}"
                                              CommandParameter="{Binding}">
+                                    <ImageButton.Behaviors>
+                                        <toolkit:AnimationBehavior>
+                                            <toolkit:AnimationBehavior.AnimationType>
+                                                <toolkit:FadeAnimation Opacity="0.2" />
+                                            </toolkit:AnimationBehavior.AnimationType>
+                                        </toolkit:AnimationBehavior>
+                                    </ImageButton.Behaviors>
                                 </ImageButton>
                             </Grid>
                         </DataTemplate>

@@ -14,6 +14,7 @@
     "configProperties": {
       "Microsoft.Extensions.DependencyInjection.VerifyOpenGenericServiceTrimmability": true,
       "System.AggressiveAttributeTrimming": true,
+      "System.Diagnostics.Debugger.IsSupported": false,
       "System.Diagnostics.Tracing.EventSource.IsSupported": false,
       "System.Globalization.Invariant": false,
       "System.Net.Http.EnableActivityPropagation": false,

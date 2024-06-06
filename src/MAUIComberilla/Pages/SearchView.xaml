@@ -1,13 +1,122 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="MAUIComberilla.Pages.SearchView"
              BackgroundColor="#1A1C1E">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-            TextColor="White"/>
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid BackgroundColor="#272A30"
+                  HeightRequest="80">
+                <SearchBar Placeholder="搜索片名，演员，导演"
+                           VerticalOptions="End"
+                           PlaceholderColor="White"
+                           TextColor="White"
+                           x:Name="Query"
+                           SearchButtonPressed="SearchBar_SearchButtonPressed" />
+            </Grid>
+            <Grid toolkit:StateContainer.CurrentState="{Binding CurrentState}">
+                <toolkit:StateContainer.StateViews>
+                    <!--tk:StateContainer.CurrentState的值为Loading时，显示如下内容-->
+                    <Border toolkit:StateView.StateKey="Loading"
+                            Background="#000"
+                            WidthRequest="160"
+                            HeightRequest="90"
+                            Opacity="0.5"
+                            Stroke="Transparent"
+                            Margin="0,300,0,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="5" />
+                        </Border.StrokeShape>
+                        <StackLayout VerticalOptions="Center">
+                            <ActivityIndicator IsRunning="True"
+                                               Color="#FFF" />
+                            <Label Text="搜索中..."
+                                   TextColor="#FFF"
+                                   HorizontalOptions="Center" />
+                        </StackLayout>
+                    </Border>
+                </toolkit:StateContainer.StateViews>
+                <ScrollView>
+                    <VerticalStackLayout>
+                        <toolkit:UniformItemsLayout x:Name="VideoList"
+                                                    MaxColumns="2"
+                                                    Margin="0,20,0,0" />
+                        <StackLayout Orientation="Horizontal"
+                                     HeightRequest="30"
+                                     BackgroundColor="Transparent"
+                                     HorizontalOptions="Center"
+                                     Margin="0,10,0,10">
+                            <ImageButton Source="first.png"
+                                         WidthRequest="20"
+                                         HeightRequest="20"
+                                         BorderColor="White"
+                                         BorderWidth="2"
+                                         CommandParameter="first"
+                                         Clicked="Page_Clicked">
+                                <ImageButton.Behaviors>
+                                    <toolkit:AnimationBehavior>
+                                        <toolkit:AnimationBehavior.AnimationType>
+                                            <toolkit:FadeAnimation Opacity="0.2" />
+                                        </toolkit:AnimationBehavior.AnimationType>
+                                    </toolkit:AnimationBehavior>
+                                </ImageButton.Behaviors>
+                            </ImageButton>
+                            <ImageButton Source="pre.png"
+                                         WidthRequest="20"
+                                         HeightRequest="20"
+                                         BorderColor="White"
+                                         BorderWidth="2"
+                                         Margin="5,0,0,0"
+                                         CommandParameter="pre"
+                                         Clicked="Page_Clicked">
+                                <ImageButton.Behaviors>
+                                    <toolkit:AnimationBehavior>
+                                        <toolkit:AnimationBehavior.AnimationType>
+                                            <toolkit:FadeAnimation Opacity="0.2" />
+                                        </toolkit:AnimationBehavior.AnimationType>
+                                    </toolkit:AnimationBehavior>
+                                </ImageButton.Behaviors>
+                            </ImageButton>
+                            <Label x:Name="PageNumlb"
+                                   TextColor="White"
+                                   Margin="10,0"
+                                   VerticalOptions="Center" />
+                            <ImageButton Source="next.png"
+                                         WidthRequest="20"
+                                         HeightRequest="20"
+                                         BorderColor="White"
+                                         BorderWidth="2"
+                                         Margin="0,0,5,0"
+                                         CommandParameter="next"
+                                         Clicked="Page_Clicked">
+                                <ImageButton.Behaviors>
+                                    <toolkit:AnimationBehavior>
+                                        <toolkit:AnimationBehavior.AnimationType>
+                                            <toolkit:FadeAnimation Opacity="0.2" />
+                                        </toolkit:AnimationBehavior.AnimationType>
+                                    </toolkit:AnimationBehavior>
+                                </ImageButton.Behaviors>
+                            </ImageButton>
+                            <ImageButton Source="last.png"
+                                         WidthRequest="20"
+                                         HeightRequest="20"
+                                         BorderColor="White"
+                                         BorderWidth="2"
+                                         CommandParameter="last"
+                                         Clicked="Page_Clicked">
+                                <ImageButton.Behaviors>
+                                    <toolkit:AnimationBehavior>
+                                        <toolkit:AnimationBehavior.AnimationType>
+                                            <toolkit:FadeAnimation Opacity="0.2" />
+                                        </toolkit:AnimationBehavior.AnimationType>
+                                    </toolkit:AnimationBehavior>
+                                </ImageButton.Behaviors>
+                            </ImageButton>
+                        </StackLayout>
+                    </VerticalStackLayout>
+                </ScrollView>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentView>

@@ -11,15 +11,4 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="32dp"
-    android:height="32dp"
-    android:viewportHeight="24.0"
-    android:viewportWidth="24.0">
-
-  <path
-      android:fillColor="#FFFFFFFF"
-      android:pathData="M4,18l8.5,-6L4,6v12zM13,6v12l8.5,-6L13,6z"/>
-
-</vector>
+--><vector android:width="32dp" android:height="32dp" android:viewportHeight="24.0" android:viewportWidth="24.0" xmlns:android="http://schemas.android.com/apk/res/android"><path android:fillColor="#FFFFFFFF" android:pathData="M4,18l8.5,-6L4,6v12zM13,6v12l8.5,-6L13,6z" /></vector>

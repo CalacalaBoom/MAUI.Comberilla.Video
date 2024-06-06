@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pages="clr-namespace:MAUIComberilla.Pages"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="MAUIComberilla.MainPage"
              Title="MainPage"
              NavigationPage.HasNavigationBar="False"
@@ -25,6 +26,13 @@
 
             <StackLayout VerticalOptions="Center"
                          Grid.Column="0" >
+                <StackLayout.Behaviors>
+                    <toolkit:AnimationBehavior>
+                        <toolkit:AnimationBehavior.AnimationType>
+                            <toolkit:FadeAnimation Opacity="0.5" />
+                        </toolkit:AnimationBehavior.AnimationType>
+                    </toolkit:AnimationBehavior>
+                </StackLayout.Behaviors>
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Home_Tapped"/>
                 </StackLayout.GestureRecognizers>
@@ -40,6 +48,13 @@
 
             <StackLayout VerticalOptions="Center"
                          Grid.Column="1">
+                <StackLayout.Behaviors>
+                    <toolkit:AnimationBehavior>
+                        <toolkit:AnimationBehavior.AnimationType>
+                            <toolkit:FadeAnimation Opacity="0.5" />
+                        </toolkit:AnimationBehavior.AnimationType>
+                    </toolkit:AnimationBehavior>
+                </StackLayout.Behaviors>
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Search_Tapped" />
                 </StackLayout.GestureRecognizers>

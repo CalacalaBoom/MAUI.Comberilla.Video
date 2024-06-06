@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 2020 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,8 +11,4 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-  <solid android:color="@color/exo_styled_error_message_background"/>
-  <corners android:radius="16dp"/>
-</shape>
+--><shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android"><solid android:color="@color/exo_styled_error_message_background" /><corners android:radius="16dp" /></shape>

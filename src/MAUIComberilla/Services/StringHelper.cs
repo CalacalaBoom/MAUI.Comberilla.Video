@@ -8,7 +8,7 @@ namespace MAUIComberilla.Services
 {
     public static class StringHelper
     {
-        public static string type { get; set; } = "normal";
+        public static string type { get; set; } = "h";
         public static List<(string,string)> SpitURL(string play_url)
         {
             List<(string,string)> result=new List<(string, string)>();

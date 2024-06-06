@@ -1,4 +1,5 @@
 using CommunityToolkit.Maui.Alerts;
+using CommunityToolkit.Maui.Layouts;
 using MAUIComberilla.Datas;
 using MAUIComberilla.Pages.Controls;
 using MAUIComberilla.Services;
@@ -18,7 +19,6 @@ public partial class HomeView : ContentView
         InitializeComponent();
         _viewModel = new HomeViewModel(this);
         this.BindingContext = _viewModel;
-        OnDataInitilazing();
     }
 
     private async Task OnDataInitilazing()
@@ -106,9 +106,17 @@ public partial class HomeView : ContentView
 
     private async void ContentView_Loaded(object sender, EventArgs e)
     {
-        await LoadHistory();
-    }
+        _viewModel.State = 1;
 
+        await OnDataInitilazing();
+        await LoadHistory();
+
+        _viewModel.State = 0;
+    }
+    /// <summary>
+    /// 加载播放历史
+    /// </summary>
+    /// <returns></returns>
     private async Task LoadHistory()
     {
         HistoryList.Clear();
@@ -117,7 +125,7 @@ public partial class HomeView : ContentView
             var query = $"select * from PlayHistory where type='{StringHelper.type}'";
             var histories = await db.QueryAsync(query);
             if (histories.Count == 0) return;
-            histories = histories.OrderByDescending(o => o.time).ToList();
+            histories = histories.OrderByDescending(o => o.time).Take(10).ToList();
             foreach (var history in histories)
             {
                 var control = new VideoPlayBackControl(history);

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\pop.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\fullscreen.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\search.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\searchselected.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\play.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\home.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\webborwser.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\homeselected.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\play2.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\last.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\first.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\pre.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\next.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

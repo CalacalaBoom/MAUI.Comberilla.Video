@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="MAUIComberilla.Pages.Controls.Video"
              WidthRequest="150"
              Margin="0,0,15,0">
@@ -11,7 +12,18 @@
                 <RoundRectangle CornerRadius="10" />
             </Border.StrokeShape>
             <Image x:Name="VideoPic"
-                   Aspect="AspectFill" />
+                   Aspect="AspectFill">
+                <Image.Behaviors>
+                    <toolkit:AnimationBehavior>
+                        <toolkit:AnimationBehavior.AnimationType>
+                            <toolkit:FadeAnimation Opacity="0.2" />
+                        </toolkit:AnimationBehavior.AnimationType>
+                    </toolkit:AnimationBehavior>
+                </Image.Behaviors>
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
         </Border>
 
         <Label x:Name="Titlelb"

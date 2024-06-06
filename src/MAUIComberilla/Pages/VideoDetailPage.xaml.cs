@@ -85,6 +85,7 @@ public partial class VideoDetailPage : ContentPage
                 var pre = dto.Data;
                 var url = pre + mediaElement.Source.ToString().Replace("Uri:", "");
                 await Browser.Default.OpenAsync(url, BrowserLaunchMode.SystemPreferred);
+                mediaElement.Pause();
             }
         }
         catch (Exception ex)
