@@ -167,7 +167,11 @@
                    FontFamily="PingFangSCRegular"
                    TextColor="White"
                    Margin="20,20,0,0"
-                   FontSize="25" />
+                   FontSize="25">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
             <ScrollView Orientation="Horizontal">
                 <StackLayout Margin="20"
                              HeightRequest="250"

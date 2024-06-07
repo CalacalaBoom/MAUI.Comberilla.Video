@@ -25,6 +25,13 @@ public partial class HomeView : ContentView
     {
         try
         {
+            using (DatabaseService db = new DatabaseService())
+            {
+                var models = await db.ApiTyoeQueryAsync("select * from ApiTyoe");
+                var model = models[0];
+                StringHelper.type = model.type;
+            }
+
             //加载推荐视频
             await LoadRecommendVideo();
 
@@ -131,6 +138,43 @@ public partial class HomeView : ContentView
                 var control = new VideoPlayBackControl(history);
                 HistoryList.Add(control);
             }
+        }
+    }
+
+    int tapcount = 0;
+    private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
+        if (StringHelper.type == "h")
+        {
+            using (DatabaseService db = new DatabaseService())
+            {
+                var models = await db.ApiTyoeQueryAsync("select * from ApiTyoe");
+                var model = models[0];
+                model.type = "normal";
+                await db.InsertOrReplaceAsync(model);
+            }
+
+            await MainThread.InvokeOnMainThreadAsync(async () => await Toast.Make("隐藏模式已退出，重启软件生效").Show());
+
+
+        }
+
+        tapcount++;
+        if (tapcount >= 5)
+        {
+            await MainThread.InvokeOnMainThreadAsync(async () => await Toast.Make("您已经点击" + tapcount + "次,不能再点呐！").Show());
+        }
+
+        if (tapcount >= 10)
+        {
+            tapcount = 0;
+
+            using (DatabaseService db = new DatabaseService())
+            {
+                await db.InsertOrReplaceAsync(new ApiTyoe() { type = "h" });
+            }
+
+            await MainThread.InvokeOnMainThreadAsync(async () => await Toast.Make("您已经处于隐藏模式，重启软件生效").Show());
         }
     }
 }

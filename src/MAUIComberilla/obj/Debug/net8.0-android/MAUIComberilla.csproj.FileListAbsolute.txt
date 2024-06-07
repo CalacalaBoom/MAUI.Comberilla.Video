@@ -2284,14 +2284,6 @@ C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\st
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.normal.apk
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.normal.aab
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.normal-Signed.aab
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.normal-Signed.apk
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.normal-Signed.apk.idsig
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\bin\com.comberilla.normal.apk
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\bin\com.comberilla.normal.aab
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\bin\com.comberilla.normal.apks
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
@@ -2302,7 +2294,6 @@ C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\an
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\environment.armeabi-v7a.ll
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\environment.x86.ll
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\environment.x86_64.ll
-C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\src\com\comberilla\normal\R.java
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\compressed_assemblies.armeabi-v7a.ll
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\compressed_assemblies.x86.ll
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
@@ -2324,3 +2315,13 @@ C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\an
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
 C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\src\com\comberilla\h\R.java
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.transform.apk
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.transform.aab
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.transform-Signed.aab
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.transform-Signed.apk
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\bin\Debug\net8.0-android\com.comberilla.transform-Signed.apk.idsig
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\bin\com.comberilla.transform.apk
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\bin\com.comberilla.transform.aab
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\bin\com.comberilla.transform.apks
+C:\Users\HEYii\Desktop\Comberilla\src\MAUIComberilla\obj\Debug\net8.0-android\android\src\com\comberilla\transform\R.java
