@@ -59,7 +59,7 @@ namespace Backend
                 SqlSugarScope sqlSugar = new SqlSugarScope(new ConnectionConfig()
                 {
                     DbType = SqlSugar.DbType.MySql,
-                    ConnectionString = "server=123.60.48.68;Database=cms;Uid=cms;Pwd=yJeQYXAHrieKxTxc",
+                    ConnectionString = "", //设置连接字符串
                     IsAutoCloseConnection = true,
                 },
                db =>
@@ -98,7 +98,7 @@ namespace Backend
 
             app.MapControllers();
 
-            app.Urls.Add("http://localhost:5000");
+            app.Urls.Add("http://localhost:5000"); //设置本地端口号
 
             app.Run();
         }
